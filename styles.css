@@ -78,3 +78,83 @@ button {
     font-size: 38px;
     font-weight: 700;
 }
+
+.middle {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    padding: 30px 20px 60px 20px;
+    
+ }
+ 
+ .middle>h2 {
+     font-size: 30px;
+     font-weight: 900;
+     padding-bottom:20px;
+ }
+ 
+ .middle-container {
+     display: flex;
+     justify-content: center;
+     gap: 52px;
+ }
+ 
+ .info {
+     max-width: 200px;
+     font-size: 14px;
+ }
+ 
+ .info>img {
+     border:#3882F6 1px solid;
+     width: 200px;
+     height: 200px;
+     border-radius: 8px;
+ }
+ 
+ .bottom {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fffefee3;
+     color: #000000;
+     padding: 50px 20px 50px 20px;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ .bottom-left {
+     align-self: flex-start;
+ }
+ 
+ .bottom-right {
+     align-self: flex-end; 
+     font-weight: 500; 
+     padding-right: 25px; 
+ }
+ 
+ .call-to-action {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 34px;;
+ 
+ }
+ 
+ .box {
+     max-width: 600px;
+     padding: 24px;
+     display:flex;
+     background-color: #3882F6;
+     flex:auto;
+     justify-content: space-between;
+     border-radius: 5px;
+ }
+ 
+ .box-right>button {
+     border: white solid 1px;
+ }
+ 
+ .box-left>p {
+     font-size: 12px;
+ }
